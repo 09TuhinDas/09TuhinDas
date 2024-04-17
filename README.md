@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Tuhin Das</h1>
-<h3 align="center">A passionate software developer from India living in USA</h3>
+<h3 align="center">I am a passionate Freelance Software and AI Developer with 5 years of hands-on experience in designing and developing cutting-edge solutions. My expertise lies in leveraging the latest technologies to create innovative and efficient software applications that solve complex problems. I have a strong background in programming languages such as Python, java and React, and I thrive in dynamic and challenging environments where I can contribute my skills to deliver exceptional results for clients.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=09tuhindas&label=Profile%20views&color=0e75b6&style=flat" alt="09tuhindas" /> </p>
 
