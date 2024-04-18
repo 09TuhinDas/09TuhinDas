@@ -1,3 +1,5 @@
+![logo](https://github.com/09TuhinDas/09TuhinDas/blob/main/240304579-c288471c-be67-4fbb-af44-1c63ee9ed280.png)
+
 <h1 align="center">Hi 👋, I'm Tuhin Das</h1>
 <h3 align="center">I am a passionate Freelance Software and AI Developer with 5 years of hands-on experience in designing and developing cutting-edge solutions. My expertise lies in leveraging the latest technologies to create innovative and efficient software applications that solve complex problems. I have a strong background in programming languages such as Python, java and React, and I thrive in dynamic and challenging environments where I can contribute my skills to deliver exceptional results for clients.</h3>
 
