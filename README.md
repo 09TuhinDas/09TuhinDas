@@ -1,27 +1,19 @@
 ![logo](https://github.com/09TuhinDas/09TuhinDas/blob/main/240304579-c288471c-be67-4fbb-af44-1c63ee9ed280.png)
 
 <h1 align="center">Hi 👋, I'm Tuhin Das</h1>
-<h3 align="center">I am a passionate Freelance Software and AI Developer with 5 years of hands-on experience in designing and developing cutting-edge solutions. My expertise lies in leveraging the latest technologies to create innovative and efficient software applications that solve complex problems. I have a strong background in programming languages such as Python, java and React, and I thrive in dynamic and challenging environments where I can contribute my skills to deliver exceptional results for clients.</h3>
+<h3 align="center">I am the Founder & CEO of Jenisys & AI Developer with 5 years of hands-on experience in building cutting-edge solutions. I specialize in Python, Java, and React, leveraging the latest technologies to develop innovative, efficient applications that solve complex problems. Passionate about AI and software development, I thrive in dynamic environments, delivering exceptional results for clients worldwide.</h3>
 
 <img align="right" alt="coding" width="400" src="https://github.com/09TuhinDas/09TuhinDas/blob/main/ggg.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=09tuhindas&label=Profile%20views&color=0e75b6&style=flat" alt="09tuhindas" /> </p>
 
-
-
-- 🌱 I’m currently learning **Vue**
-
 - 👯 I’m looking to collaborate on **open source**
-
-- 👨‍💻 All of my projects are available at [https://09tuhindas.github.io/Portfolio-Website/](https://09tuhindas.github.io/Portfolio-Website/)
 
 - 💬 Ask me about **Python, Java, HTML, CSS, JS & React**
 
 - 📫 How to reach me **09tuhindas@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1V6qnwKgvfVRFjXmqQqJjzm-q9zsZu3Bl/view?usp=share_link](https://drive.google.com/file/d/1V6qnwKgvfVRFjXmqQqJjzm-q9zsZu3Bl/view?usp=share_link)
-
-- ⚡ Fun fact **I am a Freelancer**
+- ⚡ Fun fact **I am a Founder and CEO**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
