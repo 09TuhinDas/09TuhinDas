@@ -66,14 +66,15 @@ As the founder of [Jenisys](https://jenisys.in), I lead a high-performance team 
 
 ### 📊 GitHub Stats
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=09tuhindas&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=09TuhinDas&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
 <br><br><br><br><br><br>
 
-<p>
-  <img align="center" src="https://streak-stats.demolab.com/?user=09TuhinDas&theme=default" alt="GitHub Streak" />
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Longest%20GitHub%20Streak-58%20days-orange?style=for-the-badge&logo=github" alt="Longest GitHub Streak Badge" />
 </p>
 
 
