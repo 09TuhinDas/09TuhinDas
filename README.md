@@ -26,7 +26,7 @@ As the founder of [Jenisys](https://jenisys.in), I lead a high-performance team 
 - 🧑‍💻 Languages & Tech: **Python**, **Java**, **React**, **Node.js**, **Pandas**, **Firebase**, **SQL**, **ML/DL**, **Django**, **React Native**, **Linux**
 - 🧩 AI Interests: **Neural networks**, **swing trading models**, **chatbots**, **model explainability**
 - 💼 Founder & CEO of [Jenisys](https://jenisys.in) — Software & AI Solutions Agency  
-- 📬 Reach me: **09tuhindas@gmail.com**
+- 📬 Reach me: **contact@jenisys.in**
 - 👥 Looking to collaborate on **open source**, **research**, and **real-world AI problems**
 
 ---
