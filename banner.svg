@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tuhin Das — Founder & CEO, Jenisys">
+  <defs>
+    <!-- gradient -->
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#00C2FF"/>
+      <stop offset="45%" stop-color="#6B46FF"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+
+    <!-- soft background gradient -->
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#071024"/>
+    </linearGradient>
+
+    <!-- blur filter -->
+    <filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+
+    <mask id="textMask">
+      <rect x="0" y="0" width="1200" height="320" fill="white"/>
+      <!-- allow background behind the text to be visible -->
+      <text x="60" y="130" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+            font-size="44" font-weight="700" fill="black">Tuhin Das</text>
+    </mask>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- animated sweeping gradient band -->
+  <g transform="translate(-200,20)">
+    <rect x="0" y="0" width="1600" height="240" rx="24" fill="url(#g1)" opacity="0.12" filter="url(#f1)">
+      <animate attributeName="x" from="-200" to="0" dur="8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- subtle moving lines -->
+  <g opacity="0.08" stroke="#fff" stroke-width="1">
+    <path d="M-120 70 C 160 10, 360 160, 880 90 S 1400 50, 1520 80" fill="transparent">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite"
+        values="
+          M-120 70 C 160 10, 360 160, 880 90 S 1400 50, 1520 80;
+          M-120 90 C 160 40, 360 120, 880 110 S 1400 120, 1520 100;
+          M-120 70 C 160 10, 360 160, 880 90 S 1400 50, 1520 80"/>
+    </path>
+  </g>
+
+  <!-- left badge / mark -->
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" width="120" height="120" rx="20" fill="#07102A" stroke="rgba(255,255,255,0.06)"/>
+    <!-- stylized abstract mark -->
+    <g transform="translate(26,24)">
+      <circle cx="12" cy="12" r="12" fill="#00C2FF">
+        <animate attributeName="r" values="10;14;10" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <rect x="28" y="6" width="26" height="22" rx="5" fill="#6B46FF">
+        <animateTransform attributeName="transform" type="translate" dur="4s" values="0 0;0 4;0 0" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- main title -->
+  <g transform="translate(200,90)">
+    <!-- name -->
+    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+          font-size="40" font-weight="800" fill="#E6F0FF">Tuhin Das</text>
+
+    <!-- role with gradient stroke -->
+    <text x="0" y="44" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+          font-size="16" font-weight="600" fill="url(#g1)" opacity="0.95">Founder &amp; CEO — Jenisys</text>
+
+    <!-- animated tagline -->
+    <g transform="translate(0,84)">
+      <text id="tag" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+            font-size="15" font-weight="500" fill="#BBD7FF">
+        Building AI-first products · Scaling startups · Delivering reliable systems
+      </text>
+
+      <!-- small animated bullet -->
+      <circle cx="375" cy="8" r="4" fill="#FF6B6B" opacity="0.9">
+        <animate attributeName="r" values="4;8;4" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- right side cards (3 small project chips / CTAs) -->
+  <g transform="translate(760,48)" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial">
+    <!-- card 1 -->
+    <rect x="0" y="0" rx="12" width="320" height="56" fill="#07102A" stroke="rgba(255,255,255,0.03)"/>
+    <text x="18" y="20" font-size="12" fill="#9BCBFF" font-weight="700">Open to collaborations</text>
+    <text x="18" y="40" font-size="11" fill="#8EAFFF">Startups • Research • Product</text>
+
+    <!-- card 2 -->
+    <g transform="translate(0,72)">
+      <rect x="0" y="0" rx="12" width="320" height="56" fill="#07102A" stroke="rgba(255,255,255,0.03)"/>
+      <text x="18" y="20" font-size="12" fill="#9BCBFF" font-weight="700">Current Focus</text>
+      <text x="18" y="40" font-size="11" fill="#8EAFFF">AI systems, Automation, SaaS</text>
+    </g>
+
+    <!-- subtle pulsing indicator -->
+    <circle cx="296" cy="28" r="6" fill="#00C2FF" opacity="0.95">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.95;0.25;0.95" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- footer small text -->
+  <g transform="translate(60,260)">
+    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+          font-size="11" fill="#7EA9FF">contact@jenisys.in</text>
+    <text x="220" y="0" font-size="11" fill="#425B86">— Jenisys • Software, AI & Automation</text>
+  </g>
+</svg>
