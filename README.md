@@ -1,7 +1,8 @@
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Founder+%26+CEO+of+Jenisys;AI+Developer+%7C+Tech+Visionary;Building+Real-World+Solutions;Turning+Ideas+into+Impact" alt="Typing Animation" />
+  <img src="assets/banner.svg" alt="Tuhin Das — Founder & CEO, Jenisys" />
 </p>
+
 
 <!-- Big Title -->
 <h1 align="center">🚀 Tuhin Das</h1>
