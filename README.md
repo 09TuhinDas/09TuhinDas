@@ -111,8 +111,8 @@ I'm the **Founder & CEO of [Jenisys](https://jenisys.in)** — a cutting-edge gl
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=09TuhinDas&repo=Jenisys&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF&border_radius=15" />
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/09TuhinDas/JanAushadhi" target="_blank">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=09TuhinDas&repo=JanAushadhi&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF&border_radius=15" />
+<a href="https://github.com/09TuhinDas/Denim-Trade.git" target="_blank">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=09TuhinDas&repo=Denim-trade&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF&border_radius=15" />
 </a>
 
 </div>
