@@ -1,9 +1,9 @@
-# Hello, I'm Tuhin Das
+# 👋 Hello, I'm Tuhin Das
 
 <div align="center">
   
 <!-- Animated Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:0066FF,100:004CFF&height=200&section=header&text=Founder%20%26%20CEO&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Building%20Tomorrow's%20AI%20Solutions%20Today&descAlignY=55&descAlign=50"/>
+
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+my+Digital+World;💼+Founder+%26+CEO+of+Jenisys;🌟+Turning+Vision+into+Reality" alt="Welcome Animation" />
