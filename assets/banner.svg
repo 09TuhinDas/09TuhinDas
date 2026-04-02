@@ -1,117 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tuhin Das — Founder & CEO, Jenisys">
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Tuhin Das — Founder &amp; CEO, Jenisys">
   <defs>
-    <!-- gradient -->
-    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0%" stop-color="#00C2FF"/>
-      <stop offset="45%" stop-color="#6B46FF"/>
-      <stop offset="100%" stop-color="#FF6B6B"/>
-    </linearGradient>
-
-    <!-- soft background gradient -->
+    <!-- Dark background gradient -->
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#071024"/>
+      <stop offset="0%" stop-color="#060C18"/>
+      <stop offset="100%" stop-color="#080F1E"/>
     </linearGradient>
 
-    <!-- blur filter -->
-    <filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="30" result="b"/>
-      <feBlend in="SourceGraphic" in2="b"/>
+    <!-- Cyan → Purple → Cyan accent -->
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%"   stop-color="#00D4FF"/>
+      <stop offset="50%"  stop-color="#7928CA"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+
+    <!-- Large background orb blur -->
+    <filter id="orbBlur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="55"/>
     </filter>
 
-    <mask id="textMask">
-      <rect x="0" y="0" width="1200" height="320" fill="white"/>
-      <!-- allow background behind the text to be visible -->
-      <text x="60" y="130" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
-            font-size="44" font-weight="700" fill="black">Tuhin Das</text>
-    </mask>
+    <!-- Soft object glow -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Name text glow -->
+    <filter id="textGlow" x="-8%" y="-8%" width="116%" height="116%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Tiny particle glow -->
+    <filter id="pGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+
+    <clipPath id="clip">
+      <rect width="1200" height="280"/>
+    </clipPath>
   </defs>
 
-  <!-- background -->
-  <rect width="1200" height="320" fill="url(#bg)"/>
+  <g clip-path="url(#clip)">
+    <!-- ── Base background ── -->
+    <rect width="1200" height="280" fill="url(#bg)"/>
 
-  <!-- animated sweeping gradient band -->
-  <g transform="translate(-200,20)">
-    <rect x="0" y="0" width="1600" height="240" rx="24" fill="url(#g1)" opacity="0.12" filter="url(#f1)">
-      <animate attributeName="x" from="-200" to="0" dur="8s" repeatCount="indefinite" />
-    </rect>
-  </g>
-
-  <!-- subtle moving lines -->
-  <g opacity="0.08" stroke="#fff" stroke-width="1">
-    <path d="M-120 70 C 160 10, 360 160, 880 90 S 1400 50, 1520 80" fill="transparent">
-      <animate attributeName="d" dur="12s" repeatCount="indefinite"
-        values="
-          M-120 70 C 160 10, 360 160, 880 90 S 1400 50, 1520 80;
-          M-120 90 C 160 40, 360 120, 880 110 S 1400 120, 1520 100;
-          M-120 70 C 160 10, 360 160, 880 90 S 1400 50, 1520 80"/>
-    </path>
-  </g>
-
-  <!-- left badge / mark -->
-  <g transform="translate(60,40)">
-    <rect x="0" y="0" width="120" height="120" rx="20" fill="#07102A" stroke="rgba(255,255,255,0.06)"/>
-    <!-- stylized abstract mark -->
-    <g transform="translate(26,24)">
-      <circle cx="12" cy="12" r="12" fill="#00C2FF">
-        <animate attributeName="r" values="10;14;10" dur="3s" repeatCount="indefinite" />
-      </circle>
-      <rect x="28" y="6" width="26" height="22" rx="5" fill="#6B46FF">
-        <animateTransform attributeName="transform" type="translate" dur="4s" values="0 0;0 4;0 0" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </g>
-
-  <!-- main title -->
-  <g transform="translate(200,90)">
-    <!-- name -->
-    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
-          font-size="40" font-weight="800" fill="#E6F0FF">Tuhin Das</text>
-
-    <!-- role with gradient stroke -->
-    <text x="0" y="44" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
-          font-size="16" font-weight="600" fill="url(#g1)" opacity="0.95">Founder &amp; CEO — Jenisys</text>
-
-    <!-- animated tagline -->
-    <g transform="translate(0,84)">
-      <text id="tag" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
-            font-size="15" font-weight="500" fill="#BBD7FF">
-        Building AI-first products · Scaling startups · Delivering reliable systems
-      </text>
-
-      <!-- small animated bullet -->
-      <circle cx="375" cy="8" r="4" fill="#FF6B6B" opacity="0.9">
-        <animate attributeName="r" values="4;8;4" dur="1.6s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-  </g>
-
-  <!-- right side cards (3 small project chips / CTAs) -->
-  <g transform="translate(760,48)" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial">
-    <!-- card 1 -->
-    <rect x="0" y="0" rx="12" width="320" height="56" fill="#07102A" stroke="rgba(255,255,255,0.03)"/>
-    <text x="18" y="20" font-size="12" fill="#9BCBFF" font-weight="700">Open to collaborations</text>
-    <text x="18" y="40" font-size="11" fill="#8EAFFF">Startups • Research • Product</text>
-
-    <!-- card 2 -->
-    <g transform="translate(0,72)">
-      <rect x="0" y="0" rx="12" width="320" height="56" fill="#07102A" stroke="rgba(255,255,255,0.03)"/>
-      <text x="18" y="20" font-size="12" fill="#9BCBFF" font-weight="700">Current Focus</text>
-      <text x="18" y="40" font-size="11" fill="#8EAFFF">AI systems, Automation, SaaS</text>
-    </g>
-
-    <!-- subtle pulsing indicator -->
-    <circle cx="296" cy="28" r="6" fill="#00C2FF" opacity="0.95">
-      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.95;0.25;0.95" dur="2s" repeatCount="indefinite"/>
+    <!-- ── Background glowing orbs ── -->
+    <!-- Cyan orb – left -->
+    <circle cx="150" cy="140" r="200" fill="#00D4FF" opacity="0.055" filter="url(#orbBlur)">
+      <animate attributeName="cx"      values="120;210;120"     dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.055;0.09;0.055" dur="9s"  repeatCount="indefinite"/>
     </circle>
-  </g>
+    <!-- Purple orb – right -->
+    <circle cx="1020" cy="110" r="230" fill="#7928CA" opacity="0.065" filter="url(#orbBlur)">
+      <animate attributeName="cx"      values="1020;950;1020"    dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy"      values="110;160;110"      dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.065;0.10;0.065" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Accent orb – center-right -->
+    <circle cx="680" cy="260" r="120" fill="#0070F3" opacity="0.04" filter="url(#orbBlur)">
+      <animate attributeName="cx"      values="680;720;680"     dur="7s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.04;0.07;0.04"  dur="7s"  repeatCount="indefinite"/>
+    </circle>
 
-  <!-- footer small text -->
-  <g transform="translate(60,260)">
-    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
-          font-size="11" fill="#7EA9FF">contact@jenisys.in</text>
-    <text x="220" y="0" font-size="11" fill="#425B86">— Jenisys • Software, AI & Automation</text>
+    <!-- ── Subtle grid lines ── -->
+    <g opacity="0.022" stroke="#FFFFFF" stroke-width="0.5">
+      <line x1="0"    y1="70"  x2="1200" y2="70"/>
+      <line x1="0"    y1="140" x2="1200" y2="140"/>
+      <line x1="0"    y1="210" x2="1200" y2="210"/>
+      <line x1="200"  y1="0"   x2="200"  y2="280"/>
+      <line x1="400"  y1="0"   x2="400"  y2="280"/>
+      <line x1="600"  y1="0"   x2="600"  y2="280"/>
+      <line x1="800"  y1="0"   x2="800"  y2="280"/>
+      <line x1="1000" y1="0"   x2="1000" y2="280"/>
+    </g>
+
+    <!-- ── Main glassmorphism panel ── -->
+    <rect x="32" y="28" width="758" height="222" rx="14"
+          fill="rgba(255,255,255,0.028)" stroke="rgba(255,255,255,0.075)" stroke-width="1"/>
+    <!-- Inner top highlight -->
+    <rect x="33" y="29" width="756" height="1" fill="rgba(255,255,255,0.11)"/>
+
+    <!-- Left accent bar (animated) -->
+    <rect x="32" y="28" width="3" height="222" rx="2" fill="url(#accent)">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ── Name ── -->
+    <text x="70" y="106"
+          font-family="'SF Pro Display','Segoe UI',system-ui,-apple-system,sans-serif"
+          font-size="52" font-weight="800" fill="#ECF4FF"
+          filter="url(#textGlow)" letter-spacing="-1.5">Tuhin Das</text>
+
+    <!-- Company badge pill -->
+    <rect x="70" y="120" width="230" height="28" rx="14"
+          fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.28)" stroke-width="1"/>
+    <!-- Pulsing live dot -->
+    <circle cx="90" cy="134" r="5" fill="#00D4FF" filter="url(#glow)">
+      <animate attributeName="r"       values="5;8;5"       dur="2s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.25;1"    dur="2s"   repeatCount="indefinite"/>
+    </circle>
+    <text x="104" y="139"
+          font-family="'SF Pro Display','Segoe UI',system-ui,sans-serif"
+          font-size="12" font-weight="600" fill="#00D4FF" letter-spacing="0.4">
+      Founder &amp; CEO @ Jenisys
+    </text>
+
+    <!-- Tagline -->
+    <text x="70" y="186"
+          font-family="'SF Pro Display','Segoe UI',system-ui,sans-serif"
+          font-size="14" fill="rgba(175,210,255,0.65)" letter-spacing="0.3">
+      AI · SaaS · Automation · Cloud  |  jenisys.in
+    </text>
+
+    <!-- Sub-tagline -->
+    <text x="70" y="214"
+          font-family="'SF Pro Display','Segoe UI',system-ui,sans-serif"
+          font-size="12" fill="rgba(120,160,210,0.42)">
+      Building products that solve problems worth solving
+    </text>
+
+    <!-- Contact line -->
+    <text x="70" y="240"
+          font-family="'SF Pro Display','Segoe UI',system-ui,sans-serif"
+          font-size="10" fill="rgba(85,120,175,0.38)">
+      contact@jenisys.in
+    </text>
+
+    <!-- ── Right-side info cards ── -->
+    <!-- Card 1 – Collaborations -->
+    <rect x="826" y="34"  width="310" height="84" rx="12"
+          fill="rgba(255,255,255,0.030)" stroke="rgba(0,212,255,0.13)" stroke-width="1"/>
+    <rect x="827" y="35"  width="308" height="1"  fill="rgba(255,255,255,0.08)"/>
+    <circle cx="854" cy="70" r="6" fill="#00D4FF" filter="url(#glow)">
+      <animate attributeName="r"       values="6;9;6"       dur="2s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2s"   repeatCount="indefinite"/>
+    </circle>
+    <text x="870" y="65"
+          font-family="'Segoe UI',system-ui,sans-serif"
+          font-size="13" font-weight="600" fill="rgba(200,230,255,0.88)">Open to Collaborations</text>
+    <text x="870" y="84"
+          font-family="'Segoe UI',system-ui,sans-serif"
+          font-size="11" fill="rgba(135,178,232,0.55)">Startups · Research · Products</text>
+
+    <!-- Card 2 – Focus -->
+    <rect x="826" y="132" width="310" height="84" rx="12"
+          fill="rgba(255,255,255,0.030)" stroke="rgba(121,40,202,0.16)" stroke-width="1"/>
+    <rect x="827" y="133" width="308" height="1"  fill="rgba(255,255,255,0.07)"/>
+    <circle cx="854" cy="168" r="6" fill="#7928CA" filter="url(#glow)">
+      <animate attributeName="r"       values="6;9;6"        dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9"  dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="870" y="163"
+          font-family="'Segoe UI',system-ui,sans-serif"
+          font-size="13" font-weight="600" fill="rgba(200,230,255,0.88)">Current Focus</text>
+    <text x="870" y="182"
+          font-family="'Segoe UI',system-ui,sans-serif"
+          font-size="11" fill="rgba(135,178,232,0.55)">AI Systems · Automation · Scale</text>
+
+    <!-- ── Floating particles ── -->
+    <circle cx="540" cy="48"  r="1.5" fill="#00D4FF" opacity="0.45" filter="url(#pGlow)">
+      <animate attributeName="cy"      values="48;28;48"      dur="5s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45"   dur="5s"  repeatCount="indefinite"/>
+    </circle>
+    <circle cx="630" cy="232" r="1.5" fill="#7928CA" opacity="0.40" filter="url(#pGlow)">
+      <animate attributeName="cy"      values="232;212;232"   dur="7s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.40;0;0.40"   dur="7s"  repeatCount="indefinite"/>
+    </circle>
+    <circle cx="710" cy="78"  r="1.2" fill="#00D4FF" opacity="0.35" filter="url(#pGlow)">
+      <animate attributeName="cy"      values="78;54;78"      dur="6s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0;0.35"   dur="6s"  repeatCount="indefinite"/>
+    </circle>
+    <circle cx="460" cy="198" r="1.5" fill="#0070F3" opacity="0.30" filter="url(#pGlow)">
+      <animate attributeName="cy"      values="198;178;198"   dur="8s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.30;0;0.30"   dur="8s"  repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="58"  r="1.2" fill="#7928CA" opacity="0.35" filter="url(#pGlow)">
+      <animate attributeName="cy"      values="58;38;58"      dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0;0.35"   dur="9s"  repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ── Bottom accent line ── -->
+    <rect x="0" y="277" width="1200" height="3" fill="url(#accent)" opacity="0.55"/>
   </g>
 </svg>
