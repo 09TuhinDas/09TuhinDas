@@ -57,7 +57,7 @@
 | &nbsp; | &nbsp; |
 |--------|--------|
 | **🌍 Reach** | Global operations across USA, Europe & Asia |
-| **�� Mission** | Build technology that solves problems worth solving |
+| **🎯 Mission** | Build technology that solves problems worth solving |
 | **⚡ Core** | AI systems, SaaS products, workflow automation, cloud infrastructure |
 | **🤝 Partnerships** | We partner with startups to take ideas from zero to product |
 | **📩 Contact** | [contact@jenisys.in](mailto:contact@jenisys.in) |
@@ -120,53 +120,57 @@ I'm the **Founder & CEO of [Jenisys](https://jenisys.in)** — building software
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=python,js,ts,html,css&theme=dark" alt="Languages"/>
 
-**Frameworks & Libraries**
+**Frontend & Frameworks**
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,django,tailwind,pytorch,tensorflow&theme=dark" alt="Frameworks"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite&theme=dark" alt="Frontend"/>
 
-**Cloud & DevOps**
+**Backend, Data & Cloud**
 
-<img src="https://skillicons.dev/icons?i=aws,firebase,mongodb,linux,git,docker&theme=dark" alt="Cloud & DevOps"/>
+<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres,aws,docker&theme=dark" alt="Backend & Cloud"/>
+
+**Tools**
+
+<img src="https://skillicons.dev/icons?i=figma,git,linux&theme=dark" alt="Tools"/>
+
+**Also building with**
+
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
 
 </div>
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════
-     GITHUB STATS  — clean layout
+     GITHUB ACTIVITY  — self-hosted via GitHub Actions
+     (see .github/workflows/metrics.yml — replaces the
+     github-readme-stats / streak-stats / trophy cards,
+     which depend on a shared Vercel instance that has
+     been intermittently paused/rate-limited)
 ═══════════════════════════════════════════════════ -->
 <img src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/assets/divider.svg" width="100%" alt="divider"/>
 <br/>
 
 <div align="center">
 
-### 📊 &nbsp;GitHub Stats
+### 📊 &nbsp;GitHub Activity
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=09TuhinDas&show_icons=true&hide_border=false&bg_color=060C18&title_color=00D4FF&text_color=8BA3BF&icon_color=7928CA&border_color=1A2535&border_radius=12&rank_icon=github" alt="GitHub stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=09TuhinDas&hide_border=false&background=060C18&stroke=1A2535&ring=00D4FF&fire=7928CA&currStreakNum=ECF4FF&sideNums=8BA3BF&currStreakLabel=00D4FF&sideLabels=8BA3BF&dates=455B7A&border_radius=12" alt="GitHub streak"/>
+<img width="100%" src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/github-metrics.svg" alt="GitHub metrics — stats, top languages & achievements"/>
 
-<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=09TuhinDas&layout=compact&hide_border=false&bg_color=060C18&title_color=00D4FF&text_color=8BA3BF&border_color=1A2535&border_radius=12" alt="Top languages"/>
+<br/><br/>
 
-</div>
+<img width="100%" src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/github-metrics-isocalendar.svg" alt="Isometric contribution calendar"/>
 
-<!-- Activity graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=09TuhinDas&bg_color=060C18&color=00D4FF&line=7928CA&point=00D4FF&area=true&area_color=00D4FF&hide_border=false&border_color=1A2535&radius=12" width="100%" alt="Activity graph"/>
-</div>
-
-<br/>
-
-<!-- Trophies -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=09TuhinDas&theme=onestar&no-bg=true&no-frame=false&column=7&margin-w=6" alt="Trophies" width="100%"/>
 </div>
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════
-     FEATURED PROJECTS
+     FEATURED PROJECTS  — plain cards + shields.io badges
+     (no dependency on the readme-stats pin endpoint)
 ═══════════════════════════════════════════════════ -->
 <img src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/assets/divider.svg" width="100%" alt="divider"/>
 <br/>
@@ -175,13 +179,30 @@ I'm the **Founder & CEO of [Jenisys](https://jenisys.in)** — building software
 
 ### 🚀 &nbsp;Featured Projects
 
-<a href="https://github.com/09TuhinDas/Jenisys">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=09TuhinDas&repo=Jenisys&hide_border=false&bg_color=060C18&title_color=00D4FF&text_color=8BA3BF&icon_color=7928CA&border_color=1A2535&border_radius=12" alt="Jenisys"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/09TuhinDas/Denim-trade">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=09TuhinDas&repo=Denim-trade&hide_border=false&bg_color=060C18&title_color=00D4FF&text_color=8BA3BF&icon_color=7928CA&border_color=1A2535&border_radius=12" alt="Denim-trade"/>
-</a>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Jenisys](https://github.com/09TuhinDas/Jenisys)**
+Core product/agency codebase.
+
+<img src="https://img.shields.io/github/stars/09TuhinDas/Jenisys?style=flat-square&color=00D4FF&labelColor=060C18" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/09TuhinDas/Jenisys?style=flat-square&color=7928CA&labelColor=060C18" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/09TuhinDas/Jenisys?style=flat-square&color=8BA3BF&labelColor=060C18" alt="Last commit"/>
+
+</td>
+<td width="50%" valign="top">
+
+**[Denim-trade](https://github.com/09TuhinDas/Denim-trade)**
+Trading/marketplace project.
+
+<img src="https://img.shields.io/github/stars/09TuhinDas/Denim-trade?style=flat-square&color=00D4FF&labelColor=060C18" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/09TuhinDas/Denim-trade?style=flat-square&color=7928CA&labelColor=060C18" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/09TuhinDas/Denim-trade?style=flat-square&color=8BA3BF&labelColor=060C18" alt="Last commit"/>
+
+</td>
+</tr>
+</table>
 
 </div>
 
