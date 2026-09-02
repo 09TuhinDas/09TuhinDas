@@ -27,6 +27,12 @@
        alt="Typing animation"/>
 </div>
 
+<div align="center">
+
+**I help startups and growing teams ship AI-powered SaaS products faster — from idea to scalable production systems.**
+
+</div>
+
 <!-- Badge row -->
 <div align="center">
   <a href="https://jenisys.in">
@@ -109,6 +115,25 @@ I'm the **Founder & CEO of [Jenisys](https://jenisys.in)** — building software
 <br/>
 
 <!-- ═══════════════════════════════════════════════════
+     IMPACT HIGHLIGHTS
+═══════════════════════════════════════════════════ -->
+<img src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/assets/divider.svg" width="100%" alt="divider"/>
+<br/>
+
+<div align="center">
+
+### 📌 &nbsp;Impact Highlights
+
+</div>
+
+- 🚀 Shipped **20+ products** across multiple industries
+- 🌍 Delivered projects for teams across **USA, Europe, and Asia**
+- ⚙️ Built automation-first systems to reduce manual work and improve delivery speed
+- 🤝 Partnered with founders to move from **idea → MVP → production**
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════
      TECH STACK
 ═══════════════════════════════════════════════════ -->
 <img src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/assets/divider.svg" width="100%" alt="divider"/>
@@ -184,7 +209,10 @@ I'm the **Founder & CEO of [Jenisys](https://jenisys.in)** — building software
 <td width="50%" valign="top">
 
 **[Jenisys](https://github.com/09TuhinDas/Jenisys)**
-Core product/agency codebase.
+
+- **Problem:** Teams need modern software and AI systems without long delivery cycles  
+- **Approach:** Product engineering + automation + scalable cloud architecture  
+- **Outcome:** Faster product launches with production-ready foundations
 
 <img src="https://img.shields.io/github/stars/09TuhinDas/Jenisys?style=flat-square&color=00D4FF&labelColor=060C18" alt="Stars"/>
 <img src="https://img.shields.io/github/forks/09TuhinDas/Jenisys?style=flat-square&color=7928CA&labelColor=060C18" alt="Forks"/>
@@ -194,7 +222,10 @@ Core product/agency codebase.
 <td width="50%" valign="top">
 
 **[Denim-trade](https://github.com/09TuhinDas/Denim-trade)**
-Trading/marketplace project.
+
+- **Problem:** Marketplace workflows can be fragmented and inefficient  
+- **Approach:** Unified platform design for trade operations and digital workflows  
+- **Outcome:** Cleaner process flow and better visibility for stakeholders
 
 <img src="https://img.shields.io/github/stars/09TuhinDas/Denim-trade?style=flat-square&color=00D4FF&labelColor=060C18" alt="Stars"/>
 <img src="https://img.shields.io/github/forks/09TuhinDas/Denim-trade?style=flat-square&color=7928CA&labelColor=060C18" alt="Forks"/>
@@ -204,6 +235,28 @@ Trading/marketplace project.
 </tr>
 </table>
 
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════
+     CURRENTLY BUILDING
+═══════════════════════════════════════════════════ -->
+<img src="https://raw.githubusercontent.com/09TuhinDas/09TuhinDas/main/assets/divider.svg" width="100%" alt="divider"/>
+<br/>
+
+<div align="center">
+
+### 🧪 &nbsp;Currently Building
+
+</div>
+
+- AI workflow systems for startups and operations teams  
+- SaaS products with strong automation and analytics foundations  
+- Internal accelerators for faster MVP-to-production delivery
+
+<div align="center">
+  <strong>Open to product collaborations, build partnerships, and selective freelance/consulting opportunities.</strong>
 </div>
 
 <br/>
@@ -239,6 +292,12 @@ Trading/marketplace project.
 <div align="center">
 
 ### 🔗 &nbsp;Connect
+
+<a href="mailto:contact@jenisys.in">
+  <img src="https://img.shields.io/badge/Book_a_call_%2F_Start_a_project-00D4FF?style=for-the-badge&logo=calendly&logoColor=white" alt="Book a call or start a project"/>
+</a>
+
+<br/><br/>
 
 <a href="https://linkedin.com/in/09tuhin-das">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
